@@ -49,7 +49,7 @@
 
             display-name = "Base";
             bindings = <
-&HML GRAVE MINUS   &HML Q NUMBER_1    &HML W NUMBER_2      &HML E NUMBER_3  &HML R NUMBER_4      &HML T N5         &HMR Y NUMBER_6  &HMR U N7             &HMR I N8         &HMR O N9             &HMR P N0                   &HMR BACKSLASH EQUAL
+&HML MINUS GRAVE   &HML NUMBER_1 Q    &HML NUMBER_2 W      &HML NUMBER_3 E  &HML NUMBER_4 R      &HML N5 T         &HMR NUMBER_6 Y  &HMR N7 U             &HMR N8 I         &HMR N9 O             &HMR N0 P                   &HMR EQUAL BACKSLASH
 &kp LEFT_BRACKET   &HML LEFT_SHIFT A  &HML LEFT_CONTROL S  &HML LEFT_ALT D  &HML LEFT_COMMAND F  &kp G             &kp H            &HMR RIGHT_COMMAND J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HMR RIGHT_SHIFT SEMICOLON  &kp SQT
 &kp RIGHT_BRACKET  &kp Z              &kp X                &kp C            &kp V                &kp B             &kp N            &kp M                 &kp COMMA         &kp DOT               &kp FSLH                    &kp ESCAPE
                                                            &kp DELETE       &lt 1 TAB            &kp LEFT_SHIFT    &kp SPACE        &lt 2 RETURN          &kp BACKSPACE
@@ -65,9 +65,9 @@
 
             display-name = "Lower";
             bindings = <
-&kp KP_MULTIPLY       &kp MINUS                  &mt AMPERSAND N7            &mt ASTERISK N8       &mt LEFT_PARENTHESIS N9     &kp PLUS          &kp LS(LEFT_BRACKET)      &kp LS(RIGHT_BRACKET)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &kp LEFT_BRACKET         &kp RIGHT_BRACKET
-&kp SLASH             &HML LEFT_SHIFT BACKSPACE  &HML LEFT_CONTROL NUMBER_4  &HML LEFT_ALT N5      &HML LEFT_COMMAND NUMBER_6  &kp ENTER         &kp LS(LC(LG(LEFT_ALT)))  &HMR LEFT RIGHT_COMMAND  &HMR DOWN RIGHT_ALT   &HMR UP_ARROW RIGHT_CONTROL  &HMR RIGHT_ARROW RSHIFT  &kp DOLLAR
-&kp NON_US_BACKSLASH  &kp N0                     &mt EXCLAMATION NUMBER_1    &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3           &kp PERIOD        &kp LA(LS(MINUS))         &kp LS(LC(TAB))          &kp PAGE_DOWN         &kp PG_UP                    &kp LC(TAB)              &kp TILDE
+&kp KP_MULTIPLY       &kp MINUS                  &mt AMPERSAND N7            &mt ASTERISK N8       &mt LEFT_PARENTHESIS N9     &kp PLUS          &kp LS(LEFT_BRACKET)      &kp LS(RIGHT_BRACKET)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &kp LEFT_BRACKET        &kp RIGHT_BRACKET
+&kp SLASH             &HML LEFT_SHIFT BACKSPACE  &HML LEFT_CONTROL NUMBER_4  &HML LEFT_ALT N5      &HML LEFT_COMMAND NUMBER_6  &kp ENTER         &kp LS(LC(LG(LEFT_ALT)))  &HMR RIGHT_COMMAND LEFT  &HMR RIGHT_ALT DOWN   &HMR RIGHT_CONTROL UP_ARROW  &HMR RIGHT_SHIFT RIGHT  &kp DOLLAR
+&kp NON_US_BACKSLASH  &kp N0                     &mt EXCLAMATION NUMBER_1    &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3           &kp PERIOD        &kp LA(LS(MINUS))         &kp LS(LC(TAB))          &kp PAGE_DOWN         &kp PG_UP                    &kp LC(TAB)             &kp TILDE
                                                                              &kp TILDE             &trans                      &kp LEFT_SHIFT    &kp SPACE                 &kp LG(LS(LEFT))         &kp LS(LG(RIGHT))
             >;
         };
