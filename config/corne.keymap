@@ -35,6 +35,19 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <36 37 38 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
         };
+
+        numRow: numRow {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NUMROW";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <320>;
+            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <36 37 38 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29>;
+        };
     };
 
     keymap {
@@ -49,10 +62,10 @@
 
             display-name = "Base";
             bindings = <
-&HML MINUS GRAVE   &HML NUMBER_1 Q    &HML NUMBER_2 W      &HML NUMBER_3 E  &HML NUMBER_4 R      &HML N5 T         &HMR NUMBER_6 Y  &HMR N7 U             &HMR N8 I         &HMR N9 O             &HMR N0 P                   &HMR EQUAL BACKSLASH
-&kp LEFT_BRACKET   &HML LEFT_SHIFT A  &HML LEFT_CONTROL S  &HML LEFT_ALT D  &HML LEFT_COMMAND F  &kp G             &kp H            &HMR RIGHT_COMMAND J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HMR RIGHT_SHIFT SEMICOLON  &kp SQT
-&kp RIGHT_BRACKET  &kp Z              &kp X                &kp C            &kp V                &kp B             &kp N            &kp M                 &kp COMMA         &kp DOT               &kp FSLH                    &kp ESCAPE
-                                                           &kp DELETE       &lt 1 TAB            &kp LEFT_SHIFT    &kp SPACE        &lt 2 RETURN          &kp BACKSPACE
+&numRow MINUS GRAVE  &numRow RS(NUMBER_1) Q  &numRow LS(NUMBER_2) W  &numRow LS(NUMBER_3) E  &numRow LS(NUMBER_4) R  &numRow LS(N5) T    &numRow LS(NUMBER_6) Y  &numRow LS(N7) U      &numRow LS(N8) I  &numRow LS(N9) O      &numRow LS(N0) P            &numRow EQUAL BACKSLASH
+&kp LEFT_BRACKET     &HML LEFT_SHIFT A       &HML LEFT_CONTROL S     &HML LEFT_ALT D         &HML LEFT_COMMAND F     &kp G               &kp H                   &HMR RIGHT_COMMAND J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HMR RIGHT_SHIFT SEMICOLON  &kp SQT
+&kp RIGHT_BRACKET    &kp Z                   &kp X                   &kp C                   &kp V                   &kp B               &kp N                   &kp M                 &kp COMMA         &kp DOT               &kp FSLH                    &kp ESCAPE
+                                                                     &kp DELETE              &lt 1 TAB               &kp LA(U)           &kp SPACE               &lt 2 RETURN          &kp BACKSPACE
             >;
         };
 
