@@ -70,9 +70,9 @@
 
             display-name = "Base";
             bindings = <
-&numRow MINUS GRAVE  &numRow RS(NUMBER_1) Q  &numRow LS(NUMBER_2) W  &numRow LS(NUMBER_3) E  &numRow LS(NUMBER_4) R  &numRow LS(N5) T    &numRow LS(NUMBER_6) Y  &numRow LS(N7) U      &numRow LS(N8) I  &numRow LS(N9) O      &numRow LS(N0) P            &numRow EQUAL BACKSLASH
-&kp MINUS            &HML LEFT_SHIFT A       &HML LEFT_CONTROL S     &HML LEFT_ALT D         &HML LEFT_COMMAND F     &kp G               &kp H                   &HMR RIGHT_COMMAND J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HMR RIGHT_SHIFT SEMICOLON  &kp SQT
-&kp EQUAL            &kp Z                   &kp X                   &kp C                   &kp V                   &kp B               &kp N                   &kp M                 &kp COMMA         &kp DOT               &kp FSLH                    &kp ESCAPE
+&numRow MINUS GRAVE  &numRow RS(NUMBER_1) Q  &numRow LS(NUMBER_2) W  &numRow LS(NUMBER_3) E  &numRow LS(NUMBER_4) R  &numRow LS(N5) T    &numRow LS(NUMBER_6) Y  &numRow LS(N7) U      &numRow LS(N8) I  &numRow LS(N9) O      &numRow LS(N0) P                 &numRow EQUAL BACKSLASH
+&kp MINUS            &HR_Shift LEFT_SHIFT A  &HML LEFT_CONTROL S     &HML LEFT_ALT D         &HML LEFT_COMMAND F     &kp G               &kp H                   &HMR RIGHT_COMMAND J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HR_Shift RIGHT_SHIFT SEMICOLON  &kp SQT
+&kp EQUAL            &kp Z                   &kp X                   &kp C                   &kp V                   &kp B               &kp N                   &kp M                 &kp COMMA         &kp DOT               &kp FSLH                         &kp ESCAPE
                                                                      &kp DELETE              &lt 1 TAB               &kp LA(U)           &kp SPACE               &lt 2 RETURN          &kp BACKSPACE
             >;
         };
