@@ -66,10 +66,10 @@
 
             display-name = "Base";
             bindings = <
-&numRow MINUS GRAVE  &numRow RS(NUMBER_1) Q  &numRow LS(NUMBER_2) W  &numRow LS(NUMBER_3) E  &numRow LS(NUMBER_4) R  &numRow LS(N5) T    &numRow LS(NUMBER_6) Y  &numRow LS(N7) U      &numRow LS(N8) I  &numRow LS(N9) O      &numRow LS(N0) P                 &numRow EQUAL BACKSLASH
-&kp MINUS            &HR_Shift LEFT_SHIFT A  &HML LEFT_CONTROL S     &HML LEFT_ALT D         &HML LEFT_COMMAND F     &kp G               &kp H                   &HMR RIGHT_COMMAND J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HR_Shift RIGHT_SHIFT SEMICOLON  &kp SQT
-&kp EQUAL            &kp Z                   &kp X                   &kp C                   &kp V                   &kp B               &kp N                   &kp M                 &kp COMMA         &kp DOT               &kp FSLH                         &kp ESCAPE
-                                                                     &kp DELETE              &lt 1 TAB               &kp LA(U)           &kp SPACE               &lt 2 RETURN          &kp BACKSPACE
+&numRow MINUS GRAVE  &numRow RS(NUMBER_1) Q  &numRow LS(NUMBER_2) W  &numRow LS(NUMBER_3) E  &numRow LS(NUMBER_4) R  &numRow LS(N5) T    &numRow LS(NUMBER_6) Y  &numRow LS(N7) U      &numRow LS(N8) I  &numRow LS(N9) O      &numRow LS(N0) P  &numRow EQUAL BACKSLASH
+&kp MINUS            &kp A                   &HML LEFT_CONTROL S     &HML LEFT_ALT D         &HML LEFT_COMMAND F     &kp G               &kp H                   &HMR RIGHT_COMMAND J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &kp SEMICOLON     &kp SQT
+&kp EQUAL            &kp Z                   &kp X                   &kp C                   &kp V                   &kp B               &kp N                   &kp M                 &kp COMMA         &kp DOT               &kp FSLH          &kp ESCAPE
+                                                                     &kp LA(U)               &lt 1 TAB               &kp LEFT_SHIFT      &kp SPACE               &lt 2 RETURN          &kp BACKSPACE
             >;
         };
 
@@ -82,10 +82,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp KP_MULTIPLY       &kp MINUS             &mt AMPERSAND N7            &mt ASTERISK N8       &mt LEFT_PARENTHESIS N9     &kp PLUS          &kp LS(LEFT_BRACKET)      &kp LS(RIGHT_BRACKET)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &kp LEFT_BRACKET        &kp RIGHT_BRACKET
-&kp SLASH             &HML LEFT_SHIFT PLUS  &HML LEFT_CONTROL NUMBER_4  &HML LEFT_ALT N5      &HML LEFT_COMMAND NUMBER_6  &kp ENTER         &kp LS(LC(LG(LEFT_ALT)))  &HMR RIGHT_COMMAND LEFT  &HMR RIGHT_ALT DOWN   &HMR RIGHT_CONTROL UP_ARROW  &HMR RIGHT_SHIFT RIGHT  &kp DOLLAR
-&kp NON_US_BACKSLASH  &kp N0                &mt EXCLAMATION NUMBER_1    &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3           &kp PERIOD        &kp LA(LS(MINUS))         &kp LS(LC(TAB))          &kp PAGE_DOWN         &kp PG_UP                    &kp LC(TAB)             &kp TILDE
-                                                                        &kp TILDE             &trans                      &kp LEFT_SHIFT    &kp SPACE                 &kp LG(LS(LEFT))         &kp LS(LG(RIGHT))
+&kp KP_MULTIPLY       &kp MINUS  &mt AMPERSAND N7            &mt ASTERISK N8       &mt LEFT_PARENTHESIS N9     &kp PLUS          &kp LS(LEFT_BRACKET)      &kp LS(RIGHT_BRACKET)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &kp LEFT_BRACKET        &kp RIGHT_BRACKET
+&kp SLASH             &kp A      &HML LEFT_CONTROL NUMBER_4  &HML LEFT_ALT N5      &HML LEFT_COMMAND NUMBER_6  &kp ENTER         &kp LS(LC(LG(LEFT_ALT)))  &HMR RIGHT_COMMAND LEFT  &HMR RIGHT_ALT DOWN   &HMR RIGHT_CONTROL UP_ARROW  &HMR RIGHT_SHIFT RIGHT  &kp DOLLAR
+&kp NON_US_BACKSLASH  &kp N0     &mt EXCLAMATION NUMBER_1    &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3           &kp PERIOD        &kp LA(LS(MINUS))         &kp LS(LC(TAB))          &kp PAGE_DOWN         &kp PG_UP                    &kp LC(TAB)             &kp TILDE
+                                                             &kp TILDE             &trans                      &kp LEFT_SHIFT    &kp SPACE                 &kp LG(LS(LEFT))         &kp DELETE
             >;
         };
 
