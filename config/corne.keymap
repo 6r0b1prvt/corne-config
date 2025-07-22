@@ -85,7 +85,7 @@
 &kp KP_MULTIPLY       &kp MINUS  &mt AMPERSAND N7            &mt ASTERISK N8       &mt LEFT_PARENTHESIS N9     &kp PLUS          &kp LS(LEFT_BRACKET)      &kp LS(RIGHT_BRACKET)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &kp LEFT_BRACKET        &kp RIGHT_BRACKET
 &kp SLASH             &kp A      &HML LEFT_CONTROL NUMBER_4  &HML LEFT_ALT N5      &HML LEFT_COMMAND NUMBER_6  &kp ENTER         &kp LS(LC(LG(LEFT_ALT)))  &HMR RIGHT_COMMAND LEFT  &HMR RIGHT_ALT DOWN   &HMR RIGHT_CONTROL UP_ARROW  &HMR RIGHT_SHIFT RIGHT  &kp DOLLAR
 &kp NON_US_BACKSLASH  &kp N0     &mt EXCLAMATION NUMBER_1    &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3           &kp PERIOD        &kp LA(LS(MINUS))         &kp LS(LC(TAB))          &kp PAGE_DOWN         &kp PG_UP                    &kp LC(TAB)             &kp TILDE
-                                                             &kp LS(LC(NUMBER_4))  &trans                      &kp LEFT_SHIFT    &kp SPACE                 &kp LG(LS(LEFT))         &kp DELETE
+                                                             &kp LS(LG(NUMBER_4))  &trans                      &kp LEFT_SHIFT    &kp SPACE                 &kp LG(LS(LEFT))         &kp DELETE
             >;
         };
 
